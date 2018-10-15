@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+figcaption{
+    font-size: 2em;
+    margin: 5% 0 3% 5%;
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 5% 0 0 5%;
+    padding-bottom: 10px;
+    color:purple;
+}
+
+a:link{ 
+    text-decoration:none;
+} 
+
+article{
+    width: 450px;
+    box-shadow: 2px 2px 2px gray;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+}
