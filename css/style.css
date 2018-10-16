@@ -12,11 +12,14 @@ h1{
     font-size: 2em;
 }
 
+.row{
+    margin:auto;
+}
 
 /* gestion des box */
 
 article{
-    padding-top:.5%;
+    padding-top:.8%;
     background-color: white;
 }
 
