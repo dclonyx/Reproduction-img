@@ -5,81 +5,44 @@
 
 body{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
-  }
+}
 
-figcaption{
+h1{
     font-size: 2em;
 }
+
+
+/* gestion des box */
+
+article{
+    padding-top:.5%;
+    background-color: white;
+}
+
+/* gestion des elements de chaque article */
+
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+/* this is a link */
+
+a:link{ 
+    text-decoration: none;
+} 
+
+/* this is link + 3 points */
 
 a{
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 600;
-    padding: 2% 5% 5% 5%;
     color:purple;
 }
 
-a:link{ 
-    text-decoration:none;
-} 
-
-/* gestion des box */
-
-article{
-    width: 450px;
-    box-shadow: 1px 1px 1px gray;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-
-.aligne{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8% 3% 0 5%;
-}
-
-img{
-    width: 100%;
-}
-
-/* media */
-
-/* ordinateur */
-
-@media screen and (max-width: 1920px){
-
-    body{
-        background-color: grey;
-    }
-}
-/* tablette */
-
-@media screen and (max-width: 992px){
-
-    body{
-        background-color: black;
-    }
-    article{
-        width: 40%;
-    }
-}
-
-/* telephone */
-
-@media screen and (max-width: 600px){
-
-    body{
-        background-color: white;
-        }
-    article{
-        width: auto;
-    }
+figcaption{
+    padding: 5% 5%;
 }
