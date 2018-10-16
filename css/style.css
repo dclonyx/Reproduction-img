@@ -49,3 +49,21 @@ a{
 figcaption{
     padding: 5% 5%;
 }
+
+@media(min-width:768px){
+    .row,article{
+        background-color:white;
+    }
+}
+
+@media(min-width:992px){
+    .row,article{
+    background-color: black;
+    }
+}
+
+@media(min-width:1200px){
+    .row,article{
+    background-color: grey;
+    }
+}
