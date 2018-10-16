@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-}
+  }
 
 figcaption{
     font-size: 2em;
@@ -28,16 +28,15 @@ a:link{
     text-decoration:none;
 } 
 
+/* gestion des box */
+
 article{
     width: 450px;
     box-shadow: 1px 1px 1px gray;
     margin: 20px;
     display: flex;
     flex-direction: column;
-}
-
-img{
-    width: 100%;
+    background-color: white;
 }
 
 .aligne{
@@ -45,4 +44,42 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 8% 3% 0 5%;
+}
+
+img{
+    width: 100%;
+}
+
+/* media */
+
+/* ordinateur */
+
+@media screen and (max-width: 1920px){
+
+    body{
+        background-color: grey;
+    }
+}
+/* tablette */
+
+@media screen and (max-width: 992px){
+
+    body{
+        background-color: black;
+    }
+    article{
+        width: 40%;
+    }
+}
+
+/* telephone */
+
+@media screen and (max-width: 600px){
+
+    body{
+        background-color: white;
+        }
+    article{
+        width: auto;
+    }
 }
